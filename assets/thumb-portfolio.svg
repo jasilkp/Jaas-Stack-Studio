@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="100%" height="100%" fill="#071028"/>
+  <rect x="40" y="40" width="1120" height="550" rx="18" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <g font-family="Inter, system-ui, Arial" fill="#c7d2fe">
+    <text x="80" y="180" font-size="56" font-weight="700">Portfolio</text>
+    <text x="80" y="260" font-size="28" fill="#94a3b8">Showcasing select projects</text>
+  </g>
+  <rect x="980" y="80" width="140" height="140" rx="18" fill="#7c3aed"/>
+  <g transform="translate(1050,150)" fill="#fff" font-size="44" text-anchor="middle">
+    <text x="0" y="15">🖼️</text>
+  </g>
+</svg>

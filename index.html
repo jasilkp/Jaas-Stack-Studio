@@ -25,9 +25,13 @@
   <!-- Header/Navigation -->
   <header class="header">
     <div class="container header-container">
+      <a href="#" class="logo">
+        <span class="logo-text">Jaas Stack Studio</span>
+      </a>
       <nav class="nav">
         <a href="#about" class="nav-link">About</a>
         <a href="#services" class="nav-link">Services</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
         <a href="#contact" class="nav-link">Contact</a>
       </nav>
       <button class="mobile-menu-btn" aria-label="Toggle menu">
@@ -39,10 +43,15 @@
   </header>
 
   <main id="main">
-    <!-- Brand Title -->
+    <!-- Brand Title & Hero Banner -->
     <section class="section brand-banner">
-      <div class="container">
+      <div class="container banner-container">
+        <div class="brand-status">
+          <span class="status-dot"></span>
+          <span>Available for new projects</span>
+        </div>
         <h1 class="brand-title">Jaas Stack Studio</h1>
+        <p class="brand-subtitle">Crafting high-performance web applications, software & digital solutions</p>
       </div>
     </section>
     
@@ -124,49 +133,98 @@
           <div class="portfolio-section" id="portfolio">
           <h2>Portfolio</h2>
           <div class="portfolio-grid">
+            <a class="portfolio-card" href="https://tpmresidency.com/" target="_blank" rel="noopener noreferrer">
+              <picture>
+                <source srcset="assets/Screenshot-148.webp" type="image/webp">
+                <img class="portfolio-thumb" src="assets/Screenshot (148).png" alt="TPM Residency Website cover" width="600" height="315" loading="lazy" />
+              </picture>
+              <h3><span>TPM Residency</span><span class="card-arrow">↗</span></h3>
+              <p>Motel & luxury room booking website — modern accommodations and 24/7 hospitality services.</p>
+              <div class="card-tags">
+                <span class="tag-pill">Hospitality</span>
+                <span class="tag-pill">Room Booking</span>
+                <span class="tag-pill">Live Site</span>
+              </div>
+            </a>
+
             <a class="portfolio-card" href="https://karuthedathfamily.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">
               <picture>
                 <source srcset="assets/newphoto1.webp" type="image/webp">
                 <img class="portfolio-thumb" src="assets/newphoto1.jpg" alt="Karuthedath Family App thumbnail" width="600" height="315" loading="lazy" />
               </picture>
-              <h3>Karuthedath Family</h3>
+              <h3><span>Karuthedath Family</span><span class="card-arrow">↗</span></h3>
               <p>A Family Association Web Application — live demo.</p>
+              <div class="card-tags">
+                <span class="tag-pill">Web Application</span>
+                <span class="tag-pill">Community</span>
+                <span class="tag-pill">Python</span>
+              </div>
             </a>
 
             <a class="portfolio-card" href="https://eld-triptracker.vercel.app/" target="_blank" rel="noopener noreferrer">
               <img class="portfolio-thumb" src="assets/Capture.png" alt="Online Trip Planner cover" width="600" height="315" loading="lazy" />
-              <h3>Online Trip Planner</h3>
+              <h3><span>Online Trip Planner</span><span class="card-arrow">↗</span></h3>
               <p>ELD Trip Planner — build FMCSA‑compliant plans, visualize stops and export logs.</p>
+              <div class="card-tags">
+                <span class="tag-pill">ELD & Logistics</span>
+                <span class="tag-pill">FMCSA</span>
+                <span class="tag-pill">Web App</span>
+              </div>
             </a>
 
-            <a class="portfolio-card" href="https://al-reem-6a3.pages.dev/" target="_blank" rel="noopener noreferrer">
-              <img class="portfolio-thumb" src="assets/thumb-website.jpg" alt="Website thumbnail" width="600" height="315" loading="lazy" />
-              <h3>Website</h3>
-              <p>Responsive marketing website and static site builds.</p>
+            <a class="portfolio-card" href="https://alreem-mandi.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <img class="portfolio-thumb" src="assets/thumb-website.jpg" alt="Al Reem Mandi Restaurant website thumbnail" width="600" height="315" loading="lazy" />
+              <h3><span>Restaurant — Al Reem Mandi</span><span class="card-arrow">↗</span></h3>
+              <p>Authentic Arabian restaurant chain website showcasing menus, outlets and brand story.</p>
+              <div class="card-tags">
+                <span class="tag-pill">Restaurant</span>
+                <span class="tag-pill">Multi-Outlet</span>
+                <span class="tag-pill">Landing Site</span>
+              </div>
             </a>
 
             <a class="portfolio-card" href="https://ableinfra-jxiz.onrender.com/" target="_blank" rel="noopener noreferrer">
               <img class="portfolio-thumb" src="assets/thumb-accounting.jpg" alt="Accounting software thumbnail" width="600" height="315" loading="lazy" />
-              <h3>Accounting Software</h3>
+              <h3><span>Accounting Software</span><span class="card-arrow">↗</span></h3>
               <p>Robust accounting application — live demo.</p>
+              <div class="card-tags">
+                <span class="tag-pill">Finance & SaaS</span>
+                <span class="tag-pill">Business App</span>
+                <span class="tag-pill">Full Stack</span>
+              </div>
             </a>
 
             <a class="portfolio-card" href="https://jaazcart.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">
               <img class="portfolio-thumb" src="assets/thumb-ecommerce.jpg" alt="Ecommerce thumbnail" width="600" height="315" loading="lazy" />
-              <h3>Ecommerce — JaazCart</h3>
+              <h3><span>Ecommerce — JaazCart</span><span class="card-arrow">↗</span></h3>
               <p>Full e-commerce store with cart, product pages and checkout.</p>
+              <div class="card-tags">
+                <span class="tag-pill">E-Commerce</span>
+                <span class="tag-pill">Online Store</span>
+                <span class="tag-pill">Checkout</span>
+              </div>
             </a>
 
             <a class="portfolio-card" href="https://todoappnew.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">
               <img class="portfolio-thumb" src="assets/thumb-todo.jpg" alt="Todo app thumbnail" width="600" height="315" loading="lazy" />
-              <h3>Todo App</h3>
+              <h3><span>Todo App</span><span class="card-arrow">↗</span></h3>
               <p>Simple productivity app with tasks and persistence.</p>
+              <div class="card-tags">
+                <span class="tag-pill">Productivity</span>
+                <span class="tag-pill">Task Tool</span>
+                <span class="tag-pill">Utility</span>
+              </div>
             </a>
             
             <a class="portfolio-card" href="https://jaas-stack-studio.netlify.app/" target="_blank" rel="noopener noreferrer">
               <img class="portfolio-thumb" src="assets/thumb-portfolio.jpg" alt="Portfolio site thumbnail" width="600" height="315" loading="lazy" />
-              <h3>Portfolio Web</h3>
+              <h3><span>Portfolio Web</span><span class="card-arrow">↗</span></h3>
               <p>Current portfolio site showcasing projects and services.</p>
+              <div class="card-tags">
+                <span class="tag-pill">Portfolio</span>
+                <span class="tag-pill">Personal Brand</span>
+                <span class="tag-pill">Design</span>
+              </div>
             </a>
           </div>
         </div>
@@ -245,15 +303,26 @@
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const nav = document.querySelector('.nav');
     
-    mobileMenuBtn?.addEventListener('click', () => {
-      nav.classList.toggle('active');
+    mobileMenuBtn?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = nav.classList.toggle('active');
+      mobileMenuBtn.classList.toggle('active', isOpen);
     });
 
     // Close menu when link is clicked
     document.querySelectorAll('.nav-link').forEach(link => {
       link.addEventListener('click', () => {
         nav.classList.remove('active');
+        mobileMenuBtn?.classList.remove('active');
       });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (nav?.classList.contains('active') && !nav.contains(e.target) && !mobileMenuBtn?.contains(e.target)) {
+        nav.classList.remove('active');
+        mobileMenuBtn?.classList.remove('active');
+      }
     });
 
     // Smooth scrolling for anchor links
